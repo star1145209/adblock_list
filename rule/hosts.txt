@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-08-13 08:56:27
+! Last Modified: 2024-08-13 14:17:42
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -736,7 +736,6 @@
 127.0.0.1 api-gi.getui.com
 127.0.0.1 sdk.open.phone.igexin.com
 127.0.0.1 sdk-open-phone.getui.com
-||192.168.112.2o7.net^
 127.0.0.1 sf1-be-pack.pglstatp-toutiao.com
 127.0.0.1 sf3-be-pack.pglstatp-toutiao.com
 127.0.0.1 sf6-be-pack.pglstatp-toutiao.com
@@ -1610,6 +1609,7 @@
 127.0.0.1 z5.cnzz.com
 127.0.0.1 z6.cnzz.com
 127.0.0.1 z7.cnzz.com
+||192.168.112.2o7.net^
 127.0.0.1 z8.cnzz.com
 127.0.0.1 z9.cnzz.com
 127.0.0.1 z10.cnzz.com
