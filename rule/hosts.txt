@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-08-13 02:16:56
+! Last Modified: 2024-08-13 08:56:27
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -365,7 +365,6 @@
 127.0.0.1 adwbs.ximalaya.com
 127.0.0.1 adbs.ximalaya.com
 127.0.0.1 dns.ximalaya.com
-||192.168.112.2o7.net^
 127.0.0.1 mobwsa.ximalaya.com
 127.0.0.1 location.ximalaya.com
 127.0.0.1 xdcs-collector.ximalaya.com
@@ -737,6 +736,7 @@
 127.0.0.1 api-gi.getui.com
 127.0.0.1 sdk.open.phone.igexin.com
 127.0.0.1 sdk-open-phone.getui.com
+||192.168.112.2o7.net^
 127.0.0.1 sf1-be-pack.pglstatp-toutiao.com
 127.0.0.1 sf3-be-pack.pglstatp-toutiao.com
 127.0.0.1 sf6-be-pack.pglstatp-toutiao.com
