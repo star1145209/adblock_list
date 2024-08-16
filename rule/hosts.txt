@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-08-16 20:22:27
+! Last Modified: 2024-08-17 02:16:07
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -626,6 +626,7 @@
 127.0.0.1 post1.voiceads.cn
 127.0.0.1 ad.thsi.cn
 127.0.0.1 adm.10jqka.com.cn
+||192.168.112.2o7.net^
 127.0.0.1 ads.voiceads.cn
 127.0.0.1 sdk.zsdfm.com
 127.0.0.1 adnew.wifi8.com
@@ -1650,4 +1651,3 @@
 127.0.0.1 hzs9.cnzz.com
 127.0.0.1 hzvs1.cnzz.com
 127.0.0.1 pcookie.cnzz.com
-||192.168.112.2o7.net^
