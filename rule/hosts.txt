@@ -1,9 +1,8 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-08-23 02:15:38
+! Last Modified: 2024-08-23 08:55:27
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
-||192.168.112.2o7.net^
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1 livew.l.qq.com #-> 腾讯视频
@@ -197,6 +196,7 @@
 127.0.0.1 lives.l.cp81.ott.cibntv.net
 127.0.0.1 mtrace.play.cp81.ott.cibntv.net
 127.0.0.1 ad.advst.cp33.ott.cibntv.net
+||192.168.112.2o7.net^
 127.0.0.1 sltint.adv.ott.cibntv.net
 127.0.0.1 topapi.cp12.ott.cibntv.net
 127.0.0.1 ad.video.51togic.com
