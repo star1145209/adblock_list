@@ -1,12 +1,13 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-08-25 20:20:32
+! Last Modified: 2024-08-26 02:14:15
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1 livew.l.qq.com #-> 腾讯视频
 127.0.0.1 t7z.cupid.iqiyi.com #-> 爱奇艺
+||192.168.112.2o7.net^
 127.0.0.1 wxsnsdy.wxs.qq.com #-> 微信
 127.0.0.1 is.snssdk.com
 127.0.0.1 adsmind.gdtimg.com
@@ -950,7 +951,6 @@
 127.0.0.1 mdn3.phluantmobile.net
 127.0.0.1 mdn3origin.phluantmobile.net
 127.0.0.1 akamai.smartadserver.com
-||192.168.112.2o7.net^
 127.0.0.1 cdn1.smartadserver.com
 127.0.0.1 diff.smartadserver.com
 127.0.0.1 diff2.smartadserver.com
