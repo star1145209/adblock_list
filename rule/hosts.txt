@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-09-09 09:00:12
+! Last Modified: 2024-09-09 14:18:24
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -194,6 +194,7 @@
 127.0.0.1 test.ark.letv.com
 127.0.0.1 de.as.cp61.ott.cibntv.net
 127.0.0.1 lives.l.cp81.ott.cibntv.net
+||192.168.112.2o7.net^
 127.0.0.1 mtrace.play.cp81.ott.cibntv.net
 127.0.0.1 ad.advst.cp33.ott.cibntv.net
 127.0.0.1 sltint.adv.ott.cibntv.net
@@ -1348,7 +1349,6 @@
 127.0.0.1 botuu.adsame.com
 127.0.0.1 caing.adsame.com
 127.0.0.1 caixin.adsame.com
-||192.168.112.2o7.net^
 127.0.0.1 conde.adsame.com
 127.0.0.1 corebug.adsame.com
 127.0.0.1 dcci.adsame.com
