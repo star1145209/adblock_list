@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-09-10 08:58:36
+! Last Modified: 2024-09-10 14:17:55
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -510,7 +510,6 @@
 127.0.0.1 open.e.kuaishou.com
 127.0.0.1 sdk.api.oaid.wocloud.cn
 127.0.0.1 i.w.inmobi.cn
-||192.168.112.2o7.net^
 127.0.0.1 sdktm.w.inmobi.cn
 127.0.0.1 dm.bytedance.com
 127.0.0.1 dm.pstatp.com
@@ -1391,6 +1390,7 @@
 127.0.0.1 click3forhz.adsmogo.com
 127.0.0.1 my.adsmogo.com
 127.0.0.1 www.adsmogo.com
+||192.168.112.2o7.net^
 127.0.0.1 adfill.adview.cn
 127.0.0.1 adview.cn
 127.0.0.1 report.adview.cn
