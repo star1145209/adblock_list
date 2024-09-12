@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-09-12 20:23:37
+! Last Modified: 2024-09-13 02:17:29
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -206,6 +206,7 @@
 127.0.0.1 app.aplus.pptv.com
 127.0.0.1 as.aplus.pptv.com
 127.0.0.1 de.as.pptv.com
+||192.168.112.2o7.net^
 127.0.0.1 jp.as.pptv.com
 127.0.0.1 static.g.pptv.com
 127.0.0.1 tj.g.pptv.com
@@ -1133,7 +1134,6 @@
 127.0.0.1 oth.str.mdt.qq.com
 127.0.0.1 oth.eve.mdt.qq.com
 127.0.0.1 mtrace.qq.com
-||192.168.112.2o7.net^
 127.0.0.1 misc.wcd.qq.com
 127.0.0.1 raddus.bayescom.com
 127.0.0.1 mtt.eve.mdt.qq.com
