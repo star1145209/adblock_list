@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-09-14 08:57:41
+! Last Modified: 2024-09-14 14:17:03
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -231,6 +231,7 @@
 127.0.0.1 v2.da.mgtv.com
 127.0.0.1 v2.log.mgtv.com
 127.0.0.1 web.da.mgtv.com
+||192.168.112.2o7.net^
 127.0.0.1 x.da.mgtv.com
 127.0.0.1 y.da.mgtv.com
 127.0.0.1 zx.da.mgtv.com
@@ -1516,7 +1517,6 @@
 127.0.0.1 adfuture.cn
 127.0.0.1 ad.gamebox.360.cn
 127.0.0.1 adgeo.163.com
-||192.168.112.2o7.net^
 127.0.0.1 ad.greedland.net
 127.0.0.1 adimages.sina.com.hk
 127.0.0.1 adimg.daumcdn.net
