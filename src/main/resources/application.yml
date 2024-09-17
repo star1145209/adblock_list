@@ -80,6 +80,9 @@ application:
         path: https://raw.githubusercontent.com/xndeye/web-ad-rule/master/easylist.txt
         type: easylist
 
+      - name: 8680/GOODBYEADS
+        path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt
+
     #本地规则文件
     local:
       - name: 'xndeye private adblock list'
