@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ad-filters-subscriber
+    name: ad-filters-subscriber v2
   profiles:
     active: prod  #切换至 dev 即可输出调试信息
 
@@ -96,7 +96,7 @@ application:
     file_header: |
       xndeye adblock list for ${type}
       Last Modified: ${date}
-      Homepage: https://github.com/xndeye/adblock_list/tree/beta
+      Homepage: https://github.com/star1145209/adblock_list/tree/v2
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
     #输出规则文件列表 （！注意缩进，且每个类型只能输出一个文件）
