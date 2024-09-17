@@ -72,5 +72,6 @@
     <li><a href="https://github.com/badmojr/1Hosts">1Hosts (Lite)</a></li>
     <li><a href="https://github.com/hagezi/dns-blocklists">hagezi/dns-blocklists normal</a></li>
     <li><a href="https://github.com/xndeye/web-ad-rule">xndeye/web-ad-rule</a></li>
+    <li><a href="https://github.com/8680/GOODBYEADS">8680/GOODBYEADS</a></li>
 </ul>
 </details>
