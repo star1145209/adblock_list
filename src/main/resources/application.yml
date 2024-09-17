@@ -58,7 +58,7 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt
 
       - name: 8680/GOODBYEADS
-        path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt
+        path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
         
     #本地规则文件
     local:
