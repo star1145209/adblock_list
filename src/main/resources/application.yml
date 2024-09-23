@@ -82,6 +82,7 @@ application:
 
       - name: 8680/GOODBYEADS
         path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
+        type: easylist
 
     #本地规则文件
     local:
