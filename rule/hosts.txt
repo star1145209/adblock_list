@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-09-25 18:09:21
+! Last Modified: 2024-09-25 20:14:34
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -746,7 +746,6 @@
 127.0.0.1 m.ads.sohu.com
 127.0.0.1 s.ads.sohu.com
 127.0.0.1 t.ads.sohu.com
-||192.168.112.2o7.net^
 127.0.0.1 a.track.sohu.com
 127.0.0.1 monitor.ssp.admobile.top
 127.0.0.1 sdk.ssp.admobile.top
@@ -1221,6 +1220,7 @@
 127.0.0.1 show-s.mediav.com
 127.0.0.1 show.g.mediav.com
 127.0.0.1 show.m.mediav.com
+||192.168.112.2o7.net^
 127.0.0.1 show.mediav.com
 127.0.0.1 ssxd.mediav.com
 127.0.0.1 static-ssl.mediav.com
