@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-10-01 14:12:21
+! Last Modified: 2024-10-01 16:11:44
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -257,6 +257,7 @@
 127.0.0.1 stat.funshion.net
 127.0.0.1 fun.adx.admaster.com.cn
 127.0.0.1 ykad-gateway.youku.com
+||192.168.112.2o7.net^
 127.0.0.1 ykugc.cp31.ott.cibntv.net.302.myalicdn.com
 127.0.0.1 vali.cp31.ott.cibntv.net.302.myalicdn.com
 127.0.0.1 youku-dtv.m.cn.miaozhen.com
@@ -306,7 +307,6 @@
 127.0.0.1 xray.jebe.renren.com
 127.0.0.1 pat.farvd.com
 127.0.0.1 dc.sigmob.cn
-||192.168.112.2o7.net^
 127.0.0.1 cdn.adm.myhayo.com
 127.0.0.1 engine.tuia.cn
 127.0.0.1 ad-cache.dopool.com
