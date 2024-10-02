@@ -1,6 +1,6 @@
 [xndeye Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-10-02 20:14:33
+! Last Modified: 2024-10-02 22:07:39
 ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
 
 127.0.0.1 localhost
@@ -196,6 +196,7 @@
 127.0.0.1 lives.l.cp81.ott.cibntv.net
 127.0.0.1 mtrace.play.cp81.ott.cibntv.net
 127.0.0.1 ad.advst.cp33.ott.cibntv.net
+||192.168.112.2o7.net^
 127.0.0.1 sltint.adv.ott.cibntv.net
 127.0.0.1 topapi.cp12.ott.cibntv.net
 127.0.0.1 ad.video.51togic.com
@@ -1090,7 +1091,6 @@
 127.0.0.1 api3.tuisong.baidu.com
 127.0.0.1 api8.tuisong.baidu.com
 127.0.0.1 sa.tuisong.baidu.com
-||192.168.112.2o7.net^
 127.0.0.1 api.tuisong.baidu.com
 127.0.0.1 sa8.tuisong.baidu.com
 127.0.0.1 cpro.baidustatic.com
