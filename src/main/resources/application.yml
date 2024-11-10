@@ -84,6 +84,10 @@ application:
         path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
         type: easylist
 
+      - name: Sukka's Ruleset - Blocklist for AdGuardHome
+        path: https://ruleset.skk.moe/Internal/reject-adguardhome.txt
+        type: easylist
+
     #本地规则文件
     local:
       - name: 'xndeye private adblock list'
@@ -97,7 +101,7 @@ application:
     file_header: |
       xndeye adblock list for ${type}
       Last Modified: ${date}
-      Homepage: https://github.com/star1145209/adblock_list/tree/v2
+      Homepage: https://github.com/star1145209/adblock_list/
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
     #输出规则文件列表 （！注意缩进，且每个类型只能输出一个文件）
