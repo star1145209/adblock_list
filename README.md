@@ -73,5 +73,6 @@
     <li><a href="https://github.com/hagezi/dns-blocklists">hagezi/dns-blocklists normal</a></li>
     <li><a href="https://github.com/xndeye/web-ad-rule">xndeye/web-ad-rule</a></li>
     <li><a href="https://github.com/8680/GOODBYEADS">8680/GOODBYEADS</a></li>
+    <li><a href="https://ruleset.skk.moe/Internal/reject-adguardhome.txt">Sukka's Ruleset - Blocklist for AdGuardHome</a></li>
 </ul>
 </details>
