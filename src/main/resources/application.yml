@@ -84,10 +84,6 @@ application:
         path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
         type: easylist
 
-      - name: Sukka's Ruleset - Blocklist for AdGuardHome
-        path: https://ruleset.skk.moe/Internal/reject-adguardhome.txt
-        type: easylist
-
     #本地规则文件
     local:
       - name: 'xndeye private adblock list'
