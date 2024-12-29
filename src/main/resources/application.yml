@@ -60,22 +60,6 @@ application:
         path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
         type: easylist
 
-      - name: NoAppDownload
-        path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
-        type: easylist
-
-      - name: Cats-Team AdBlock List Lite
-        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt
-        type: easylist
-
-      - name: 1Hosts (Lite)
-        path: https://o0.pages.dev/Lite/adblock.txt
-        type: easylist
-
-      - name: hagezi/dns-blocklists pro
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt
-        type: easylist
-
       - name: xndeye web-ad-rule
         path: https://raw.githubusercontent.com/xndeye/web-ad-rule/master/easylist.txt
         type: easylist
@@ -87,6 +71,12 @@ application:
       - name: 217heidai/adblockfilters
         path: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
         type: easylist
+
+      - name: damengzhu jiekouAD
+        path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+
+      - name: cjxlist annoyance
+        path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
 
     #本地规则文件
     local:
