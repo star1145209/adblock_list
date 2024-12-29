@@ -65,14 +65,12 @@
     <li><a href="https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt">AdGuard 恼人广告过滤器</a></li>
     <li><a href="https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt">AdGuard 解除搜索广告和自我推销过滤器</a></li>
     <li><a href="https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt">AdGuard 中文过滤器</a></li>
-    <li><a href="https://github.com/jdlingyu/ad-wars">ad-wars</a></li>
-    <li><a href="https://github.com/TG-Twilight/AWAvenue-Adblock-Rule">AWAvenue-Adblock-Rule</a></li>
-    <li><a href="https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt">NoAppDownload</a></li>
-    <li><a href="https://github.com/Cats-Team/AdRules">Cats-Team/AdRules AdBlock List Lite</a></li>
-    <li><a href="https://github.com/badmojr/1Hosts">1Hosts (Lite)</a></li>
-    <li><a href="https://github.com/hagezi/dns-blocklists">hagezi/dns-blocklists normal</a></li>
-    <li><a href="https://github.com/xndeye/web-ad-rule">xndeye/web-ad-rule</a></li>
-    <li><a href="https://github.com/8680/GOODBYEADS">8680/GOODBYEADS</a></li>
-    <li><a href="https://github.com/217heidai/adblockfilters">217heidai/adblockfilters</a></li>
+    <li><a href="https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts">大圣净化</a></li>
+    <li><a href="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt">AWAvenue-Adblock-Rule</a></li>
+    <li><a href="https://raw.githubusercontent.com/xndeye/web-ad-rule/master/easylist.txt">xndeye/web-ad-rule</a></li>    
+    <li><a href="https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt">8680/GOODBYEADS</a></li>
+    <li><a href="https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt">217heidai/adblockfilters</a></li>
+    <li><a href="https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt">damengzhu jiekouAD</a></li>
+    <li><a href="https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt">cjxlist annoyance</a></li>
 </ul>
 </details>
