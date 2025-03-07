@@ -68,10 +68,6 @@ application:
         path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
         type: easylist
         
-      - name: 217heidai/adblockfilters
-        path: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-        type: easylist
-
     #本地规则文件
     local:
       - name: 'xndeye private adblock list'
