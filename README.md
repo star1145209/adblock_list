@@ -69,8 +69,5 @@
     <li><a href="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt">AWAvenue-Adblock-Rule</a></li>
     <li><a href="https://raw.githubusercontent.com/xndeye/web-ad-rule/master/easylist.txt">xndeye/web-ad-rule</a></li>    
     <li><a href="https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt">8680/GOODBYEADS</a></li>
-    <li><a href="https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt">217heidai/adblockfilters</a></li>
-    <li><a href="https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt">damengzhu jiekouAD</a></li>
-    <li><a href="https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt">cjxlist annoyance</a></li>
 </ul>
 </details>
