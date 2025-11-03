@@ -1,6 +1,7 @@
 [xndeye private adblock list]
+! Title: AD Filter Subscriber (private) by star1145209
 ! Last Modified: 2025-07-24 22:00:00
-! Homepage: 
+! Homepage: https://github.com/star1145209/adblock_list
 ! Description: 自用补充规则, 完全主观, 不定期更新.
 #-------------白名单---------------
 # 小米浏览器下载弹窗
@@ -29,15 +30,31 @@
 ||adsdkprod.azureedge.net^$important
 #小米跟踪器
 ||tracker.xiaomixiaoai.com^$important
+#拦截微信广告
+||ad.weixin.qq.com^
+||badjs.weixinbridge.com^
+||canvas.gdt.qq.com^
+||pgdt.gtimg.cn^
+||pgdt.ugdtimg.com^
+||prewxacode.wxqcloud.qq.com.cn^
+||union.gdtimg.com^
+||vweixinthumb.tc.qq.com^
+||win.gdt.qq.com^
+||wxa.wxs.qq.com^
+||wximg.wxs.qq.com^
+||wxsmw.wxs.qq.com^
+||wxsnsad.tc.qq.com^
+||wxsnsdy.tc.qq.com^
+||wxsnsdy.video.qq.com^
+||wxsnsdythumb.wxs.qq.com^
 #-----------------待定------------------
 #未知来源 广告/日志
 ||toblog.ctobsnssdk.com^
 ||xc.maoxiongtv.com^$important
 #-----------------晴雅黑名单------------------
-! Title: 晴雅广告拦截规则重置版🐧538268498
-! Homepage: http://rssv.cn/adguard/
-! Description: 反馈群538268498
-! Version: 1.0.6
+# 晴雅广告拦截规则重置版🐧538268498 http://rssv.cn/adguard/
+# Description: 反馈群538268498
+# Version: 1.0.6
 # TimeUpdated: 2024-12-3T01:023:50+00:00
 ||a1.alibabausercontent.com^
 ||aa.birdgesdk.com^
