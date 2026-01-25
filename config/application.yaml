@@ -57,21 +57,21 @@ application:
       path: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
       type: easylist
 
-    - name: ABP filters
-      path: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-      type: easylist
+    #- name: ABP filters
+    #  path: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+    #  type: easylist
 
-    - name: uBlockOrigin privacy
-      path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt
-      type: easylist
+    #- name: uBlockOrigin privacy
+    #  path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt
+    #  type: easylist
 
-    - name: Telemetry Lists - Aggregated
-      path: https://raw.githubusercontent.com/SystemJargon/filters/refs/heads/main/telemetry.txt
-      type: dns
+    #- name: Telemetry Lists - Aggregated
+    #  path: https://raw.githubusercontent.com/SystemJargon/filters/refs/heads/main/telemetry.txt
+    #  type: dns
 
-    - name: '1Hosts Lite'
-      path: 'https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt'
-      type: dns
+    #- name: '1Hosts Lite'
+    #  path: 'https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt'
+    #  type: dns
 
     - name: 8680 GOODBYEADS
       path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
