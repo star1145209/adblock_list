@@ -25,13 +25,13 @@ application:
     #  path: https://filters.adtidy.org/extension/ublock/filters/10_optimized.txt
     #  type: easylist
 
-    - name: AdGuard 中文过滤器adtidy
-      path: https://filters.adtidy.org/extension/ublock/filters/224_optimized.txt
-      type: easylist
+    #- name: AdGuard 中文过滤器adtidy
+    #  path: https://filters.adtidy.org/extension/ublock/filters/224_optimized.txt
+    #  type: easylist
 
-    - name: AdGuard 中文过滤器github
-      path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
-      type: easylist
+    #- name: AdGuard 中文过滤器github
+    #  path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+    #  type: easylist
 
     - name: AWAvenue-Adblock-Rule
       path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
@@ -92,7 +92,23 @@ application:
     - name: GoodbyeAds-Samsung
       path: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Extension/GoodbyeAds-Samsung-AdBlock.txt
       type: easylist
-
+      
+    - name: Ad-Wars
+      path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+      type: hosts    
+      
+    - name: AdGuardSDNSFilter
+      path: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt
+      type: dns
+    
+    - name: EasylistChina
+      path: https://easylist-downloads.adblockplus.org/easylistchina.txt
+      type: easylist
+      
+    - name: AdRules DNS List
+      path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+      type: easylist
+      
     - name: 'private adblock list'
       path: 'rule/private.txt'
       type: easylist
