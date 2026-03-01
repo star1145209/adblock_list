@@ -177,3 +177,5 @@ application:
         - "assets.msn.com"
         # 预防华为域名误杀
         - "huawei.com"
+        # 屏蔽此域名会导致云闪付横幅异常
+        - "ads.cup.com.cn"
