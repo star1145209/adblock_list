@@ -115,7 +115,7 @@ application:
 
   output:
     file_header: |
-      Title: xndeye adblock list of ${type}
+      Title: Adblock list of ${type} by star1145209
       Total Size: ${total}
       Last Modified: ${date}
       Homepage: https://github.com/star1145209/adblock_list
