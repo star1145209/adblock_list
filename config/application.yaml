@@ -73,9 +73,9 @@ application:
     #  path: 'https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt'
     #  type: dns
 
-    #- name: 8680 GOODBYEADS
-    #  path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
-    #  type: easylist
+    - name: 8680 GOODBYEADS
+      path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
+      type: easylist
 
     - name: damengzhu jiekouAD
       path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
@@ -97,9 +97,9 @@ application:
       path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
       type: hosts    
       
-    - name: AdGuardSDNSFilter
-      path: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt
-      type: dns
+    #- name: AdGuardSDNSFilter
+    #  path: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt
+    #  type: dns
     
     #- name: EasylistChina
     #  path: https://easylist-downloads.adblockplus.org/easylistchina.txt
