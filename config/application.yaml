@@ -14,31 +14,6 @@ adfs:
       path: https://filters.adtidy.org/extension/chromium/filters/11_optimized.txt
       type: adblock
       dialect: adguard
-  
-    # - name: AdGuard 防跟踪保护过滤器
-    #   path: https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt
-    #   type: adblock
-    #   dialect: adguard
-  
-    - name: AdGuard URL跟踪过滤器
-      path: https://filters.adtidy.org/extension/chromium/filters/17_optimized.txt
-      type: adblock
-      dialect: adguard
-  
-    - name: AdGuard 恼人广告过滤器
-      path: https://filters.adtidy.org/extension/chromium/filters/14_optimized.txt
-      type: adblock
-      dialect: adguard
-  
-    - name: AdGuard 解除搜索广告和自我推销过滤器
-      path: https://filters.adtidy.org/extension/chromium/filters/10_optimized.txt
-      type: adblock
-      dialect: adguard
-  
-    - name: AdGuard 中文过滤器
-      path: https://filters.adtidy.org/extension/chromium/filters/224_optimized.txt
-      type: adblock
-      dialect: adguard
 
     - name: AWAvenue-Adblock-Rule
       path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
@@ -55,42 +30,17 @@ adfs:
       type: adblock
       dialect: adguard
 
-    # - name: cjxlist annoyance
-    #   path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-    #   type: adblock
-    #   dialect: adguard
+    - name: cjxlist annoyance
+      path: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+      type: adblock
+      dialect: adguard
 
-    # - name: EasyList China+EasyList
-    #   path: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-    #   type: adblock
-    #   dialect: abp
-
-    - name: ABP filters
-      path: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+    - name: EasyList China+EasyList
+      path: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
       type: adblock
       dialect: abp
 
-    # - name: uBlockOrigin privacy
-    #   path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt
-    #   type: adblock
-    #   dialect: ubo
-
-    - name: Telemetry Lists - Aggregated
-      path: https://raw.githubusercontent.com/SystemJargon/filters/refs/heads/main/telemetry.txt
-      type: dns
-      dialect: adguard
-
-    # - name: '1Hosts Lite'
-    #   path: 'https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt'
-    #   type: adblock
-    #   dialect: core
-
-    - name: HaGeZi Pro++ Mini
-      path: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.mini.txt
-      type: adblock
-      dialect: adguard
-
-    - name: 'xndeye private adblock list'
+    - name: 'private adblock list'
       path: 'rule/private.txt'
       type: adblock
       dialect: adguard
@@ -144,13 +94,24 @@ adfs:
       min-length: 1
       max-length: 65536  # 存在文本输入时，不得超过 input.max-line-length。
       whitelist:
-        - "edge.microsoft.com"
-        - "public.gensparkspace.com"
-        - "assets.msn.com"
         # 华为应用商店相关域名
         - "store-drcn.hispace.dbankcloud.com"
         # 屏蔽此域名会导致小米部分服务异常
         - "api.comm.miui.com"
+        # 屏蔽此域会导致Edge浏览器翻译不可用
+        - "edge.microsoft.com"
+        # 屏蔽此域会导致小米天气网络异常
+        - "metok.sys.miui.com"
+        # 屏蔽此域会导致小米云备份网络异常
+        - "a0.app.xiaomi.com"
+        # 屏蔽此域会导致10086 App登陆异常
+        - "client.app.coc.10086.cn"
+        # 屏蔽此域会导致MSN页面无法正常加载
+        - "assets.msn.com"
+        # 预防华为域名误杀
+        - "huawei.com"
+        # 屏蔽此域名会导致云闪付横幅异常
+        - "ads.cup.com.cn"
 
     conversion:
       allow-expansion: false
