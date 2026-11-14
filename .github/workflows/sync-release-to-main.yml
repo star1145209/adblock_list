@@ -6,6 +6,10 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch: # 允许手动触发
 
+# 关键：授予写入权限
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -16,21 +20,20 @@ jobs:
         with:
           ref: main
           path: main
+          fetch-depth: 0
 
       - name: Checkout Release Branch
         uses: actions/checkout@v7
         with:
           ref: release
           path: release
+          fetch-depth: 0
 
-      - name: Copy Release to Main's Rule Folder
+      - name: Sync release to main/rule (mirror, delete stale files)
         run: |
-          # 删除 main 分支的 rule 文件夹（如果存在）
-          #rm -rf main/rule
-          # 创建 rule 文件夹
-          #mkdir -p main/rule
-          # 复制 release 分支的所有内容到 main/rule
-          cp -rf release/* main/rule/
+          mkdir -p main/rule
+          # rsync 镜像同步，--delete 删除目标多余文件
+          rsync -av --delete release/ main/rule/
 
       - name: Commit and Push Changes
         run: |
@@ -38,5 +41,10 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "chore: sync release branch to main/rule [automated]"
-          git push
+          # 只有存在变更才提交
+          if git diff --staged --quiet; then
+            echo "✅ No changes to sync, skip commit & push"
+          else
+            git commit -m "chore: sync release branch to main/rule [automated]"
+            git push
+          fi
