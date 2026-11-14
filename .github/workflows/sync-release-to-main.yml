@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Main Branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           ref: main
           path: main
 
       - name: Checkout Release Branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           ref: release
           path: release
