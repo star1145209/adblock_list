@@ -6,22 +6,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # 必须保留：允许工作流向仓库写入内容
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # 锁定版本，避免 ubuntu-latest 标签迁移带来的潜在问题
     timeout-minutes: 30
     steps:
       - name: Checkout main branch into ./main
-        uses: actions/checkout@v4          # 修复：v7 → v4
+        uses: actions/checkout@v6  # 升级到 v6，以消除 Node.js 20 弃用警告
         with:
           ref: main
           path: main
           fetch-depth: 0
 
       - name: Checkout release branch into ./release
-        uses: actions/checkout@v4          # 修复：v7 → v4
+        uses: actions/checkout@v6  # 升级到 v6，以消除 Node.js 20 弃用警告
         with:
           ref: release
           path: release
@@ -31,10 +31,6 @@ jobs:
         run: |
           mkdir -p main/rule
           rsync -av --exclude='.git' release/ main/rule/
-        # -a：归档模式（递归 + 保留权限/时间戳）
-        # -v：显示详细输出
-        # --exclude='.git'：排除 .git 目录，避免破坏 main 的 Git 仓库
-        # 没有 --delete → 目标目录中已有的、release 中不存在的文件会保留
 
       - name: Commit & Push
         run: |
