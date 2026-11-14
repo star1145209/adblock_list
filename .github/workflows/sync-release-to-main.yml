@@ -2,11 +2,9 @@ name: Sync Release to Main
 
 on:
   schedule:
-    # UTC 时间每6小时执行一次
     - cron: '0 */6 * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
 
-# 授予推送权限
 permissions:
   contents: write
 
@@ -15,36 +13,46 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Checkout Main Branch
+      - name: Checkout main branch into ./main
         uses: actions/checkout@v7
         with:
           ref: main
           path: main
           fetch-depth: 0
 
-      - name: Checkout Release Branch
+      - name: Checkout release branch into ./release
         uses: actions/checkout@v7
         with:
           ref: release
           path: release
           fetch-depth: 0
 
-      - name: Sync release → main/rule（不删除目标原有文件）
+      - name: Debug - 打印release目录里面有什么（重点！用来排查）
         run: |
+          echo "===== release 目录文件列表 ====="
+          ls -la release/
+          echo "===== main/rule 目录当前文件 ====="
           mkdir -p main/rule
-          # 重点：没有 --delete
-          # 同名文件会被release覆盖；main/rule独有的文件全部保留
-          rsync -av release/ main/rule/
+          ls -la main/rule/ || echo "main/rule 还不存在"
+
+      - name: Copy release 到 main/rule（不删除原有文件，同名覆盖）
+        run: |
+          # 复制所有文件，包含隐藏文件
+          cp -rf release/* release/.[!.]* main/rule/
+
+      - name: Debug - 复制完成后再看main/rule
+        run: |
+          echo "===== 复制后 main/rule ====="
+          ls -la main/rule/
 
       - name: Commit & Push
         run: |
           cd main
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add .
-          # 没有变更就跳过提交，避免报错
           if git diff --staged --quiet; then
-            echo "无文件变更，跳过提交推送"
+            echo "没有变更，跳过提交"
           else
             git commit -m "chore: sync release branch to main/rule [automated, no clean]"
             git push
