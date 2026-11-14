@@ -6,22 +6,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 必须保留：允许工作流向仓库写入内容
+  contents: write
 
 jobs:
   sync:
-    runs-on: ubuntu-24.04  # 锁定版本，避免 ubuntu-latest 标签迁移带来的潜在问题
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - name: Checkout main branch into ./main
-        uses: actions/checkout@v6  # 升级到 v6，以消除 Node.js 20 弃用警告
+        uses: actions/checkout@v6
         with:
           ref: main
           path: main
           fetch-depth: 0
 
       - name: Checkout release branch into ./release
-        uses: actions/checkout@v6  # 升级到 v6，以消除 Node.js 20 弃用警告
+        uses: actions/checkout@v6
         with:
           ref: release
           path: release
@@ -37,7 +37,8 @@ jobs:
           cd main
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add rule/
+          # main 分支的 .gitignore 忽略了 rule 目录，需要用 -f 强制添加
+          git add -f rule/
           if git diff --staged --quiet; then
             echo "没有变更，跳过提交"
           else
