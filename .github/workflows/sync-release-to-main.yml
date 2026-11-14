@@ -9,15 +9,16 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout Main Branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
           path: main
 
       - name: Checkout Release Branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: release
           path: release
