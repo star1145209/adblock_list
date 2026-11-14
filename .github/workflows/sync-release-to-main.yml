@@ -2,11 +2,11 @@ name: Sync Release to Main
 
 on:
   schedule:
-    # 每隔6小时运行一次（UTC时间）
+    # UTC 时间每6小时执行一次
     - cron: '0 */6 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch: # 支持手动触发
 
-# 关键：授予写入权限
+# 授予推送权限
 permissions:
   contents: write
 
@@ -29,22 +29,23 @@ jobs:
           path: release
           fetch-depth: 0
 
-      - name: Sync release to main/rule (mirror, delete stale files)
+      - name: Sync release → main/rule（不删除目标原有文件）
         run: |
           mkdir -p main/rule
-          # rsync 镜像同步，--delete 删除目标多余文件
-          rsync -av --delete release/ main/rule/
+          # 重点：没有 --delete
+          # 同名文件会被release覆盖；main/rule独有的文件全部保留
+          rsync -av release/ main/rule/
 
-      - name: Commit and Push Changes
+      - name: Commit & Push
         run: |
           cd main
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          # 只有存在变更才提交
+          # 没有变更就跳过提交，避免报错
           if git diff --staged --quiet; then
-            echo "✅ No changes to sync, skip commit & push"
+            echo "无文件变更，跳过提交推送"
           else
-            git commit -m "chore: sync release branch to main/rule [automated]"
+            git commit -m "chore: sync release branch to main/rule [automated, no clean]"
             git push
           fi
