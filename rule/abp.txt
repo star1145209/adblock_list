@@ -1,6 +1,6 @@
 ! Title: xndeye adblock list of abp
-! Total Size: 119140
-! Last Modified: 2026-11-18T23:13:27.100765339+08:00
+! Total Size: 119277
+! Last Modified: 2026-11-19T07:57:00.314833819+08:00
 ! Homepage: https://github.com/xndeye/adblock_list
 ! Powered by: https://github.com/fordes123/ad-filters-subscriber
 ||amazingfork.com^
@@ -5212,6 +5212,7 @@ banglatribune.com##div[id^="BT_Inner_R"]
 bdjobs.com##.single-promo
 jagledam.com#@#.sponsored-link
 jagledam.com#@#.google-ads
+||native.tportal.hr/black-friday/
 index.hr##div.js-carousel-campaign
 dnevnik.hr##.banner-holder
 24sata.hr##.dfp_banner
@@ -5839,6 +5840,9 @@ jauns.lv##.ad
 inbox.lv##div[class^="AdContainer-"]
 @@||vipi.tv/ads.js
 delfi.lv##div[data-ad-placement]
+kaunas.kasvyksta.lt###kasvyksta_lt_top
+kaunas.kasvyksta.lt##div.catheter-recovery-host:has(> .catheter-sponsored-card)
+kaunas.kasvyksta.lt##.raw-html-component--ad
 ||krepsinis.net/catheter/detector.js^
 ||tv3.lt/Uploads/image/TOP-7bet/
 krepsinis.net###toTheTop
@@ -7175,6 +7179,9 @@ cumberlink.com,dailyprogress.com,gazettetimes.com,journalstar.com,kenoshanews.co
 2ip.io,34-hub.com,afrohouseking.com,all3dp.com,amp-businessinsider-com.cdn.ampproject.org,azmovies.to,battlefieldtracker.com,biharkhabar.co,businessday.ng,chillflix.to,coindesk.com,crosswordsolver.com,dailyhindiadda.com,deeeep.io,destinytracker.com,deviantart.com,djpunjab2.in,dvbtmap.eu,eweek.com,fifakitcreator.com,filexstream.sujanbotx.workers.dev,fontscompare.com,foxweather.com,futbin.com,gfinityesports.com,globalnews.ca,governmentjobvacancies.com,grammarbook.com,greatbritishchefs.com,halotracker.com,holidify.com,ibtimes.co.uk,inc.com,infinityfree.net,infoworld.com,jamesbachini.com,kaoruhana.com,link.postearn.io,linuxcapable.com,mangafarm.com,mangajar.com,marinetraffic.live,minecraftforum.net,mixed-news.com,netronline.com,obsev.com,ogfap.com,ohcar2022.co.in,one-off.email,phras.in,pics-x.com,pixground.com,punchng.com,raaaaft.io,recyclingtoday.com,reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,resizepixel.com,rome2rio.com,sarkarijobcorner.com,sarna.net,shorturl.fm,snipboard.io,southparkstudios.com,the-crossword-solver.com,theglobeandmail.com,theproducenews.com,thunderstore.io,tikmate.app,tracker.gg,tracker.network,tradingeconomics.com,trustedreviews.com,ubackup.com,usatoday.com,worldsoccertalk.com,wowdb.com##.ad-container:not(#style_important)
 affiliatefix.com,altenen.is,babia.to,beermoneyforum.com,cracking.org,craxpro.io,gearspace.com,germancarforum.com,gleaks.pro,hifivision.com,landyzone.co.uk,minebbs.com,myiptvforum.com,nullcave.pro,nullforums.net,reef2reef.com,technofino.in,vi-control.net,waskucity.com,worldofiptv.com,woxmax.com##.samBannerUnit
 /\.[a-z]{2,6}\/[0-9A-Za-z]{5,8}\.js$/$script,domain=analdin.com|bestjavporn.com|ero-anime.website|hdpornflix.com|javdock.com|javtiful.com|onscreens.me|supjav.com|thefantazy.com|up4fun.top,third-party
+downforeveryoneorjustme.com##.pw-ad-slot
+downforeveryoneorjustme.com##.grid > div > div.pb-4:has(> p > a[href="http://www.playwire.com"])
+porofessor.gg##.cards-list > li:has(> div.inline-video-player)
 getav.net##section[data-ad-slot-key]
 getav.net##.hidden[style*="min-height:"]
 getav.net##section[aria-label="Advertisement"]
@@ -13024,6 +13031,7 @@ kliuki.bg##img[width="650"][height="80"]
 /adaptvadplayer.js$script
 /adasync.min.js$script
 /adbanners/*$image
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /adengine.js$script
@@ -13477,6 +13485,7 @@ _prebid.js$script
 /r.php?u=https$document
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock_detector2.$script
 /adblock_logger.$script
@@ -13965,7 +13974,6 @@ _800x80_
 ###ad_wallpaper
 ###ad_wide
 ###ad_wrapper
-###adbanner1
 ###adbar
 ###adbody
 ###adbottom
@@ -17571,6 +17579,7 @@ browsershots.org#@#.advert_area
 ||2mo3neop.de^
 ||2osb.com^
 ||2oznbwwxbwxlhb8o2tzizevu6uffxuvrp6948b.cfd^
+||2ppz5u2mn57k2jc8.cfd^
 ||2qj7mq3w4uxe.com^
 ||2rlgdkf7s.de^
 ||2rmifan7n.de^
@@ -17864,6 +17873,7 @@ browsershots.org#@#.advert_area
 ||abadit5rckb.com^
 ||abadit5rckd.com^
 ||abamatachiol.com^
+||abampuniateducky.cfd^
 ||abashfireworks.com^
 ||abberantdisheartenbandage.com^
 ||abberantpawnpalette.com^
@@ -18653,6 +18663,7 @@ browsershots.org#@#.advert_area
 ||allegianceenableselfish.com^
 ||alleliteads.com^
 ||allenprepareattic.com^
+||allezmahalla.click^
 ||allfreecounter.com^
 ||allodiapreburn.com^
 ||allotedshiko.com^
@@ -18706,6 +18717,7 @@ browsershots.org#@#.advert_area
 ||amasvibes.cfd^
 ||amateurcouplewebcam.com^
 ||amautbassie.cfd^
+||amazingaster.com^
 ||amazingmeaning.com^
 ||ambaab.com^
 ||ambaasteerguidman.cyou^
@@ -18918,6 +18930,7 @@ browsershots.org#@#.advert_area
 ||aqpkokeeyyncfl.com^
 ||aqsimcvsjaknx.store^
 ||aqslujcrohco.in^
+||aqsoxbwa.in^
 ||aquaticsulpho.com^
 ||aqubzryzaqdxe.space^
 ||aquuxhozhgnnj.online^
@@ -19034,6 +19047,7 @@ browsershots.org#@#.advert_area
 ||asperencium.com^
 ||aspirationprogrammecontains.com^
 ||aspirincountryprofound.com^
+||aspshalers.com^
 ||asqawnbcap.in^
 ||asrbhlsbkjbzp.site^
 ||asrop.xyz^
@@ -19083,6 +19097,7 @@ browsershots.org#@#.advert_area
 ||athodydspakedankle.cfd^
 ||athwartwhoafat.com^
 ||athyridlidgate.cyou^
+||atifhylrgtiwx.online^
 ||atiltgalerie.cfd^
 ||atinglepigeons.com^
 ||atkxzasfrpgqq.online^
@@ -20099,6 +20114,7 @@ browsershots.org#@#.advert_area
 ||bruntstabulae.com^
 ||brushetenglandagacant.qpon^
 ||brusklylawton.com^
+||brusuresororal.rest^
 ||brutingpunches.com^
 ||brutishlylifevoicing.com^
 ||brutismguid.com^
@@ -20243,6 +20259,7 @@ browsershots.org#@#.advert_area
 ||bwujpusmudu.in^
 ||bwuonpqazac.in^
 ||bxcaucgerwmxg.space^
+||bxeddekzfmimn.space^
 ||bxflacvuc.com^
 ||bxhmqeiyqicht.online^
 ||bxhnjzyusvery.website^
@@ -20512,6 +20529,7 @@ browsershots.org#@#.advert_area
 ||cdnflex.me^
 ||cdngain.com^
 ||cdnkimg.com^
+||cdnmmhybpknfc.online^
 ||cdnmon.com^
 ||cdnondemand.org^
 ||cdnpc.net^
@@ -20547,6 +20565,7 @@ browsershots.org#@#.advert_area
 ||centassels.com^
 ||centoz.xyz^
 ||centralnervous.net^
+||centrefdop.com^
 ||centricgrummer.com^
 ||centumshough.com^
 ||cepesbritons.qpon^
@@ -20583,6 +20602,7 @@ browsershots.org#@#.advert_area
 ||cfhrvxmt.com^
 ||cfivfadtlr.com^
 ||cfmbroselispers.cyou^
+||cfoxeeannedjv.website^
 ||cfphzvdymxipz.online^
 ||cftntyhj8gy1n9p62k.rest^
 ||cfusionsys.com^
@@ -20622,6 +20642,7 @@ browsershots.org#@#.advert_area
 ||charmingtiger.me^
 ||chaseherbalpasty.com^
 ||chasesseqqreburn.qpon^
+||chattigreeks.click^
 ||chauckee.net^
 ||chauffermotter.com^
 ||chawlejeg.com^
@@ -21305,6 +21326,7 @@ browsershots.org#@#.advert_area
 ||crumpetjheel.com^
 ||crumpetprankerstench.com^
 ||cruncherpatiencestoreroom.com^
+||crusdezalgozq.space^
 ||crutojtytkqlm.online^
 ||crwdcntrl.net^
 ||crxcr2.com^
@@ -21326,6 +21348,7 @@ browsershots.org#@#.advert_area
 ||csrsmzmnkofij.site^
 ||cssdwkjzdxxqn.online^
 ||cssigfilepace.cyou^
+||cstqwzdchkjvn.site^
 ||cstwpush.com^
 ||cswkegtpoow.com^
 ||cswzdujrpvyra.site^
@@ -21385,6 +21408,7 @@ browsershots.org#@#.advert_area
 ||cuplikenominee.com^
 ||cupoabie.net^
 ||cuppenbedsore.cyou^
+||cuprumbenet.com^
 ||curacoapips.com^
 ||curaresthereupstruck.cyou^
 ||curataiolis.com^
@@ -21414,6 +21438,7 @@ browsershots.org#@#.advert_area
 ||cvastico.com^
 ||cvbjetgbzkhpm.site^
 ||cvcyakvnlslmz.space^
+||cvepwpgfbnicq.site^
 ||cvfelozwatfcb.com^
 ||cvftznrelwjrj.space^
 ||cvhjssfpfisdef.com^
@@ -21439,6 +21464,7 @@ browsershots.org#@#.advert_area
 ||cwxgfwukjfath.space^
 ||cxkmmqqdacsqa.website^
 ||cxmdqtzlcsdh.com^
+||cxmqsrqinbtnx.website^
 ||cxxjkmdjn.com^
 ||cyafskdlykiou.online^
 ||cyan92010.com^
@@ -21503,6 +21529,7 @@ browsershots.org#@#.advert_area
 ||daejyre.com^
 ||daffaite.com^
 ||daffodilacorn.com^
+||daffodilfrost.mobi^
 ||daftarfilles.shop^
 ||dagong.org^
 ||dahomeyrooed.cfd^
@@ -21949,6 +21976,7 @@ browsershots.org#@#.advert_area
 ||dlguehzfijdys.website^
 ||dljacjdzmqgiq.site^
 ||dlonte.xyz^
+||dlvkjmaibuade.online^
 ||dlwrdwlinolah.space^
 ||dlxpwytwmiacd.online^
 ||dlysuoekxnktv.site^
@@ -21989,6 +22017,7 @@ browsershots.org#@#.advert_area
 ||doibyspdqlbmd.online^
 ||dokondigit.quest^
 ||dolessimitywearily.cfd^
+||dolesskin.click^
 ||dolosehoggism.click^
 ||domaincntrol.com^
 ||domdex.com^
@@ -22156,6 +22185,7 @@ browsershots.org#@#.advert_area
 ||dslebb.com^
 ||dslrph.com^
 ||dslvji.com^
+||dslvnp.com^
 ||dsmaed.com^
 ||dsmcfq.com^
 ||dsmhru.com^
@@ -22245,6 +22275,7 @@ browsershots.org#@#.advert_area
 ||duvalppqxazxm.site^
 ||duvpagvetqzqy.website^
 ||duxifxoollqvx.website^
+||dvhhudfpjdpbm.website^
 ||dvhintgubzivus.com^
 ||dvjenundsitys.space^
 ||dvnmstkybzyeu.site^
@@ -22455,6 +22486,7 @@ browsershots.org#@#.advert_area
 ||ehanosojilwvc.online^
 ||ehaveagoldenbed.org^
 ||ehiakjopnzwcc.online^
+||ehjfywvuslmpe.site^
 ||ehpjcjbqoplgmm.com^
 ||ehrpdehitrrma.space^
 ||ehrydnmdoe.com^
@@ -22539,6 +22571,7 @@ browsershots.org#@#.advert_area
 ||eltontry.com^
 ||eludestop.cyou^
 ||elusionsmatter.cfd^
+||elydkznpltm.com^
 ||elysiumbrandy.com^
 ||elzcmnirjjoni.space^
 ||emasculatedessertamuse.com^
@@ -22863,6 +22896,7 @@ browsershots.org#@#.advert_area
 ||exphyqtiehvre.space^
 ||explodclikmn.com^
 ||exporder-patuility.com^
+||exposalmund.cfd^
 ||exposuretigerphilip.com^
 ||exptlgooney.com^
 ||expwycheapie.com^
@@ -22875,6 +22909,7 @@ browsershots.org#@#.advert_area
 ||externdietine.cyou^
 ||extgpraeses.cyou^
 ||extremereach.io^
+||extroverted-election.com^
 ||extsuantdiallomon.com^
 ||exulsundaes.cfd^
 ||exzhygdndixyk.website^
@@ -22885,6 +22920,7 @@ browsershots.org#@#.advert_area
 ||eyereturn.com^
 ||eyescrod.cyou^
 ||eyeviewads.com^
+||eygbgbthsrqfx.site^
 ||eyhdotouaxqoq.online^
 ||eymdrbirearxz.site^
 ||eynaxnvzruafs.online^
@@ -23053,6 +23089,7 @@ browsershots.org#@#.advert_area
 ||feriehangups.com^
 ||fermagefrauen.cfd^
 ||fermeryherbous.com^
+||fermeryinarkrecooks.cfd^
 ||fermolo.info^
 ||fernzenith.com^
 ||ferocitycandour.com^
@@ -23075,6 +23112,7 @@ browsershots.org#@#.advert_area
 ||few-politics.com^
 ||fewmoiqhaooqz.site^
 ||fewsfcmitftvj.space^
+||fexmjbiamfmkx.site^
 ||ffdagjkfnjmil.site^
 ||fffcb81bb4.com^
 ||ffiahobjyrbzoc.com^
@@ -23106,6 +23144,7 @@ browsershots.org#@#.advert_area
 ||ficopranced.com^
 ||ficulaervil.cyou^
 ||fidar.site^
+||fidholjxlidfg.website^
 ||fiedctgudxctv.space^
 ||fiercerbestuds.com^
 ||figglefodge.com^
@@ -23422,6 +23461,7 @@ browsershots.org#@#.advert_area
 ||fryboldlymalice.com^
 ||fryhqcgovlyee.space^
 ||frykyuoqcto.com^
+||frzclvrvehksl.space^
 ||frzgerjccnf.com^
 ||fsalfrwdr.com^
 ||fsbbtdtxzswq.com^
@@ -23459,6 +23499,7 @@ browsershots.org#@#.advert_area
 ||fuck-dating.com^
 ||fuckthat.xyz^
 ||fucwopisqxjmu.site^
+||fuffitjeanniebotches.cfd^
 ||fufrbtjgadkncr.com^
 ||fugiosnivels.com^
 ||fugitivedepart.com^
@@ -23471,6 +23512,7 @@ browsershots.org#@#.advert_area
 ||funcallback.com^
 ||functionssubqueries.com^
 ||fundiyawned.cyou^
+||fungiaobsign.cfd^
 ||fungicdiauloschemmy.qpon^
 ||fungidcolder.com^
 ||funkingdefat.rest^
@@ -23527,6 +23569,7 @@ browsershots.org#@#.advert_area
 ||fyqxchcsttpvb.website^
 ||fzadhejdrwtic.online^
 ||fzdxspljwjfbp.site^
+||fzdxxgixeymfx.website^
 ||fzehebhsdrwrk.online^
 ||fzgafhllmzsjo.online^
 ||fzguyxpmpragr.site^
@@ -23750,6 +23793,7 @@ browsershots.org#@#.advert_area
 ||ggreatstuff.com^
 ||ggsfq.com^
 ||gguhedofhcxyr.website^
+||gguphuaatdwtd.online^
 ||ggvbrxgpcuijg.online^
 ||ggwzihuwsvnpn.site^
 ||ggymibegmsflu.space^
@@ -23816,6 +23860,7 @@ browsershots.org#@#.advert_area
 ||giwmicgil.com^
 ||gixiluros.com^
 ||gjaetiklkqycy.online^
+||gjbxjnbufkibp.website^
 ||gjcvvmwz.com^
 ||gjfayongoeneq.space^
 ||gjigle.com^
@@ -23874,6 +23919,7 @@ browsershots.org#@#.advert_area
 ||gloporn.com^
 ||gloriamfob.qpon^
 ||gloriousberry.info^
+||gloriousberry.pro^
 ||gloutanacard.com^
 ||glowdot.com^
 ||glowerstarrish.com^
@@ -24001,6 +24047,7 @@ browsershots.org#@#.advert_area
 ||gpsecureads.com^
 ||gpzhmclomgogo.website^
 ||gqbpnoupitmly.site^
+||gqcyumr.com^
 ||gqfpqtbdok.com^
 ||gqfqczyphgiyp.site^
 ||gqjgdafijfvxx.online^
@@ -24095,6 +24142,7 @@ browsershots.org#@#.advert_area
 ||grubblepuffwig.com^
 ||grufffeelimitation.com^
 ||grunchpotfuls.qpon^
+||grunthpuzzles.com^
 ||gruponn.com^
 ||gruwiqatdpaz.in^
 ||grzrttparohgrl.com^
@@ -24107,6 +24155,7 @@ browsershots.org#@#.advert_area
 ||gsyndication.com^
 ||gt5tiybvn.com^
 ||gtbdhr.com^
+||gtegruazcrfpo.online^
 ||gtfzyeftkexvo.site^
 ||gthyh6v842zvoxvnk1lpff8y8en2jx4t.cfd^
 ||gtovrvmyoobgs.space^
@@ -24185,6 +24234,7 @@ browsershots.org#@#.advert_area
 ||gwyqupvtyqzy.in^
 ||gwyztyahjamn.in^
 ||gx101.com^
+||gxfymazebhlln.site^
 ||gxmaslawqsjtf.online^
 ||gxmbuhpfjzfau.site^
 ||gxmetfdcczlyz.site^
@@ -24262,6 +24312,7 @@ browsershots.org#@#.advert_area
 ||hangshogginschiefty.cfd^
 ||hankcoinspeppermint.com^
 ||hanojdofxaw.in^
+||hanseazido.com^
 ||haogcicxunh.com^
 ||haolesolio.com^
 ||hapboffsculming.cfd^
@@ -24348,6 +24399,7 @@ browsershots.org#@#.advert_area
 ||hdedpaooxfoen.com^
 ||hdesvtpufcd.com^
 ||hdfcwqwaqmnnn.website^
+||hdgzmborowqng.online^
 ||hdithsqsb.com^
 ||hdkbxadnbxvua.online^
 ||hdlcscvhoyuhs.online^
@@ -24443,9 +24495,11 @@ browsershots.org#@#.advert_area
 ||hhdeqkgwmnndd.website^
 ||hhghxxsaabbnc.space^
 ||hhit.xyz^
+||hhkdchsioeizp.online^
 ||hhklc.com^
 ||hhkld.com^
 ||hhoimnhzekcdb.site^
+||hhqiglbfabbdf.space^
 ||hhrpqxcdyauxs.online^
 ||hhskqxsqdsocm.site^
 ||hhtizkpobmaoo.website^
@@ -24471,6 +24525,7 @@ browsershots.org#@#.advert_area
 ||highcpmrevenuegate.com^
 ||highcpmrevenuenetwork.com^
 ||highlowalosa.click^
+||highlowcamisia.cfd^
 ||highlowmusted.qpon^
 ||highmaidfhr.com^
 ||highperformancecpm.com^
@@ -24592,6 +24647,7 @@ browsershots.org#@#.advert_area
 ||hollandwinly.cyou^
 ||hollowsuspicion.com^
 ||holmicsabins.cfd^
+||holsteracool.com^
 ||holuagency.top^
 ||homelybottle.com^
 ||homeridsouredcoughs.cfd^
@@ -24688,6 +24744,7 @@ browsershots.org#@#.advert_area
 ||hrtye.com^
 ||hryaavcnugcpp.site^
 ||hsektnmjyvshw.online^
+||hsgeqpkmyjhek.website^
 ||hsiyrghptxjyd.site^
 ||hsmcvmjrkxekd.website^
 ||hspbtcxzyhpno.online^
@@ -24767,12 +24824,14 @@ browsershots.org#@#.advert_area
 ||hvaukklmxktml.space^
 ||hvikwpunitktp.site^
 ||hvnthkedlolem.site^
+||hvotqprpfpabz.site^
 ||hvplqfyjtvolj.space^
 ||hvryrpkrtiusl.com^
 ||hvvaoxrjglkhd.online^
 ||hvyzvahhnolsw.space^
 ||hwdfqfdu.com^
 ||hwikmrenzqmva.online^
+||hwkftvcicrgwe.website^
 ||hwkwmwyz.com^
 ||hwpnocpctu.com^
 ||hwpvqkwhlq.com^
@@ -24855,6 +24914,7 @@ browsershots.org#@#.advert_area
 ||ibnndmxeltmux.online^
 ||ibryte.com^
 ||ibsbjipbonaxj.site^
+||ibttkneskpejk.space^
 ||icariablunker.com^
 ||icatethebenefits.com^
 ||icbjetaiczjsh.site^
@@ -24882,6 +24942,7 @@ browsershots.org#@#.advert_area
 ||idealvergent.cyou^
 ||identicaldrench.com^
 ||identicalprofile.com^
+||idetaarchgod.cyou^
 ||idfzfafqzoxby.website^
 ||idjypemjqnivb.space^
 ||idpawqdbfdoht.online^
@@ -24948,6 +25009,7 @@ browsershots.org#@#.advert_area
 ||ikgqgwyopctjn.site^
 ||ikikigxywqcrf.site^
 ||ikjdvkmyakhsv.online^
+||ikjpqfqy33p2zzgw2zz1htw8r77k.rest^
 ||ikmykotdc.com^
 ||ikrluvzleiqze.online^
 ||ikuftjxylifwl.online^
@@ -25100,6 +25162,7 @@ browsershots.org#@#.advert_area
 ||innfurane.qpon^
 ||innity.net^
 ||innyweakela.co^
+||inopwdjmiqqlv.website^
 ||inpa29d7r79.com^
 ||inpage-push.net^
 ||inpagepush.com^
@@ -25280,12 +25343,14 @@ browsershots.org#@#.advert_area
 ||ixbrdykmup.com^
 ||ixbyqmgvlyqio.online^
 ||ixegbqlflqiqf.site^
+||ixfbdmdduqypv.online^
 ||ixiondartman.com^
 ||ixjplbufdjnnz.website^
 ||ixkkcgzxxcuba.online^
 ||ixnp.com^
 ||ixorituyaubcu.site^
 ||ixsfstwddpmgu.site^
+||ixwpseujisuyx.website^
 ||iyazotbnfrqoy.site^
 ||iycwqwgywlyyc.space^
 ||iyfbodn.com^
@@ -25492,6 +25557,7 @@ browsershots.org#@#.advert_area
 ||jnoxpedpszqfok.com^
 ||jnqrsizoofjhr.site^
 ||jnresgvybuzbf.site^
+||jnswzmqfvzmfib.com^
 ||jnxm2.com^
 ||jnzfklnnkbszw.online^
 ||jocelyntururi.rest^
@@ -25592,6 +25658,7 @@ browsershots.org#@#.advert_area
 ||jucxhidpig.in^
 ||juddersexcusedligure.qpon^
 ||judebelii.com^
+||jufbglqdpbidb.space^
 ||jufferfurtum.cyou^
 ||jugerfowells.com^
 ||jugfulsagnat.cyou^
@@ -25647,6 +25714,7 @@ browsershots.org#@#.advert_area
 ||jwnbaokoenlru.space^
 ||jwutznbnhgmkg.online^
 ||jxfbaoovzzgres.com^
+||jxhaohxzsrvch.space^
 ||jygotubvpyguak.com^
 ||jygxzxvyopqmn.space^
 ||jyhwlxpir7tevqxeuyh3vyfwptv2bjk.cfd^
@@ -25736,6 +25804,7 @@ browsershots.org#@#.advert_area
 ||kcoigpafs.com^
 ||kcpf938kzbmglbfvmtgemvz9hlr9i.cfd^
 ||kcrjxozfsdhdc.online^
+||kcsyawoxclttg.space^
 ||kctecoeitlrcr.space^
 ||kcwjezvjzsqpn.online^
 ||kcyjhawac.in^
@@ -25766,6 +25835,7 @@ browsershots.org#@#.advert_area
 ||kendosliny.com^
 ||keodqemqhvlbz.website^
 ||kernelbudstwig.com^
+||kernelstubulet.click^
 ||kernesowan.com^
 ||kerningsairly.qpon^
 ||kernoioxhouse.com^
@@ -25828,6 +25898,7 @@ browsershots.org#@#.advert_area
 ||kickupschape.com^
 ||kidsfondaco.cyou^
 ||kifrgktcqlzha.space^
+||kiggypdjqlyut.site^
 ||kihkudwal.in^
 ||kihudevo.pro^
 ||kijvanavlosyw.website^
@@ -25996,6 +26067,8 @@ browsershots.org#@#.advert_area
 ||kromeiciness.com^
 ||krookiqvocnolk.com^
 ||krpxzaxqykgwi.website^
+||krqoupgigtqch.website^
+||krroqqqgdpqlp.site^
 ||ksceuuupvjpes.space^
 ||kscwlxjzvjvot.site^
 ||kskbpvqhwamtu.site^
@@ -26070,6 +26143,7 @@ browsershots.org#@#.advert_area
 ||kyanizethruvflaxen.cyou^
 ||kyfumulus.com^
 ||kyhmzwonysozy.site^
+||kyijgnsgbdrgo.website^
 ||kylzuarxeyeli.online^
 ||kypwvjoni.com^
 ||kyqkyumnlbjik.online^
@@ -26118,6 +26192,7 @@ browsershots.org#@#.advert_area
 ||lainerneedily.cyou^
 ||laivue.com^
 ||lakeacorn.mobi^
+||lakeacorn.pro^
 ||lakenebulareentry.com^
 ||lakierdilkerambrica.qpon^
 ||lakns.com^
@@ -26271,6 +26346,7 @@ browsershots.org#@#.advert_area
 ||leperosangar.cyou^
 ||lepetitdiary.com^
 ||leprosyderipia.com^
+||lepxtxsbucqzl.space^
 ||lesionsburlies.qpon^
 ||lethalwhosis.com^
 ||lethargyplatingsatin.com^
@@ -26433,6 +26509,7 @@ browsershots.org#@#.advert_area
 ||llvzuvmqkxkgd.space^
 ||llxbqnbxoyspx.website^
 ||llyjwpmbhzuwe.website^
+||lmajjygd.com^
 ||lmcreoloharsr.website^
 ||lmgyjug31.com^
 ||lmjzsplamr.com^
@@ -26543,6 +26620,7 @@ browsershots.org#@#.advert_area
 ||lptrck.com^
 ||lpzfkjdynfxza.space^
 ||lqijuziipgeuf.online^
+||lqqjxcsqzozrq.online^
 ||lqtxaxvnpa.com^
 ||lqvhituxitzab.site^
 ||lr-in.com^
@@ -26659,6 +26737,7 @@ browsershots.org#@#.advert_area
 ||m2q9p51vrxo4q476lp5nor7f.rest^
 ||m2track.co^
 ||m32.media^
+||m4pw95xrbltl8ckg93l6qw.rest^
 ||m4vrux6x88zwc1.cfd^
 ||m526mlg7xw1uc29e1.rest^
 ||m8hjt4bhchx7lcf2wy4qtk.cfd^
@@ -26673,6 +26752,7 @@ browsershots.org#@#.advert_area
 ||madcheddar.net^
 ||madcpms.com^
 ||maddenwiped.com^
+||madeupproblem.com^
 ||madeupvigourpoll.com^
 ||madnesscoupon.com^
 ||madratesforall.com^
@@ -26754,6 +26834,7 @@ browsershots.org#@#.advert_area
 ||maqodyjrxhblw.online^
 ||marazma.com^
 ||marchshotgun.com^
+||mardydemareewant.cyou^
 ||marigoodby.cfd^
 ||marimedia.com^
 ||marinadeworriesdurable.com^
@@ -26794,6 +26875,7 @@ browsershots.org#@#.advert_area
 ||mathspositionuproar.com^
 ||maticobawrel.click^
 ||matildawu.online^
+||matirmg.com^
 ||matiro.com^
 ||matshernantgedds.cyou^
 ||matsvxoevd.com^
@@ -26968,6 +27050,7 @@ browsershots.org#@#.advert_area
 ||mgdjmp.com^
 ||mghkpg.com^
 ||mgid.com^
+||mgqzqmwxgqqml.online^
 ||mgscbfyaampuci.com^
 ||mgtsnwzyyshwb.website^
 ||mhaafduliizbe.site^
@@ -27101,6 +27184,7 @@ browsershots.org#@#.advert_area
 ||mlamhrqoghhw.com^
 ||mlepzhgpdtyfb.site^
 ||mlfslerfeptaf.online^
+||mlfzxpeyfebpw.space^
 ||mlibxnfwpglpv.site^
 ||mlidlbjypefff.website^
 ||mljkzxrvtieeh.website^
@@ -27300,6 +27384,7 @@ browsershots.org#@#.advert_area
 ||mtburn.com^
 ||mtenzafvslu.com^
 ||mtqnbowguf.com^
+||mtrdqxymqsloq.space^
 ||mtrokjdgwtrhw.space^
 ||mtueecezoqlmx.site^
 ||mtvilqebootbn.website^
@@ -27329,6 +27414,7 @@ browsershots.org#@#.advert_area
 ||mumggwcvchccq.space^
 ||mumoxxajrfaw.in^
 ||munbfoeocuheu.online^
+||mundifycormoidarrope.cyou^
 ||munhztqfjrd.com^
 ||muntinbeltmanunca.cyou^
 ||muolaatqfqgmo.website^
@@ -27403,6 +27489,7 @@ browsershots.org#@#.advert_area
 ||mywondertrip.com^
 ||myyssxljcljxh.website^
 ||mzbdzmuldbkfw.website^
+||mzdgwgeisucxy.site^
 ||mzehuksmeanp.in^
 ||mzhvlsjtzjff.com^
 ||mzkaknzzsilyg.website^
@@ -27707,6 +27794,7 @@ browsershots.org#@#.advert_area
 ||nohowsankhya.com^
 ||noiseshilding.com^
 ||noisesperusemotel.com^
+||noisyorals.cfd^
 ||nojnhtpmmdthl.online^
 ||noknqfkkltuft.online^
 ||nolzmmmohdwfe.online^
@@ -27888,7 +27976,9 @@ browsershots.org#@#.advert_area
 ||nylastmangy.com^
 ||nymssducal.cfd^
 ||nyohikihjztcq.space^
+||nysflneusinnh.space^
 ||nytrng.com^
+||nytwwclx2zrq7y83jcn95.cfd^
 ||nyvfpgbkx.com^
 ||nyvlwjvxrmoqb.space^
 ||nyyneamtxxdcv.site^
@@ -27967,6 +28057,7 @@ browsershots.org#@#.advert_area
 ||ococlmomp.com^
 ||oconner.link^
 ||ocrghebunvuc.in^
+||ocrruiyzxicvz.website^
 ||ocsdkiwkrndeo.site^
 ||octantsumbonal.rest^
 ||octo25.me^
@@ -28056,6 +28147,7 @@ browsershots.org#@#.advert_area
 ||ohqrcabnkurki.space^
 ||ohqvbvnfixpog.online^
 ||ohrdsplu.com^
+||ohruawdrnwxuk.online^
 ||ohtctjiuow.com^
 ||ohucxcdstxgqx.online^
 ||ohvbdellid.cfd^
@@ -28217,6 +28309,7 @@ browsershots.org#@#.advert_area
 ||op02.biz^
 ||opacifyuplinkunspell.qpon^
 ||opalizejupes.cfd^
+||opctikzijfib.in^
 ||opecxanthan.com^
 ||openmindedaching.com^
 ||openwebmp.com^
@@ -28327,6 +28420,7 @@ browsershots.org#@#.advert_area
 ||otcwhuojntr.in^
 ||otfozsat.in^
 ||otglrpaceef.com^
+||othhxcgwdtpl.com^
 ||othoxnahsrf.in^
 ||otices.com^
 ||oticlemures.cyou^
@@ -28773,6 +28867,7 @@ browsershots.org#@#.advert_area
 ||phiglerdail.net^
 ||phkajhwgblmke.space^
 ||phkzraexgflnn.site^
+||phmsyticbimcr.site^
 ||phonehalfmoonwild.com^
 ||phonydepth.com^
 ||photicssuttees.cfd^
@@ -28903,6 +28998,7 @@ browsershots.org#@#.advert_area
 ||plassdumbcow.qpon^
 ||plasticimprovebodgery.cyou^
 ||platchwwraojk.online^
+||platearangale.rest^
 ||playerhit.co^
 ||playerhq.co^
 ||playerseo.club^
@@ -29123,6 +29219,7 @@ browsershots.org#@#.advert_area
 ||prancesfrappcooed.cyou^
 ||prankcoelom.cyou^
 ||prasoidmetal.cyou^
+||prawnspieltragia.cfd^
 ||prdredir.com^
 ||precautionnoughtsam.com^
 ||precedentblackened.com^
@@ -29206,6 +29303,7 @@ browsershots.org#@#.advert_area
 ||profitableratecpmnetwork.com^
 ||profitabletrustednetwork.com^
 ||profitsence.com^
+||profuse-wind.pro^
 ||programmesheadstoneconsult.com^
 ||prohibitedhesitatetransgress.com^
 ||projectagora.net^
@@ -29376,6 +29474,7 @@ browsershots.org#@#.advert_area
 ||purroneovistscouse.qpon^
 ||pursuecycles.cfd^
 ||pursuedduvetyn.click^
+||puruhawilrone.com^
 ||push-notifications.top^
 ||push-sdk.com^
 ||push-sdk.net^
@@ -29490,6 +29589,7 @@ browsershots.org#@#.advert_area
 ||qbzjwamdgxydg.website^
 ||qcglsbvudqtao.site^
 ||qcgvpfizclttu.space^
+||qcinj6zhut5j93fzztmo275hgj37rg19gxvrw.cfd^
 ||qcmoubaihyvbj.online^
 ||qcnljeukwbfdu.online^
 ||qcsjqchatmwpj.space^
@@ -29507,6 +29607,7 @@ browsershots.org#@#.advert_area
 ||qfem4jigh7zbr6br18ofm.cfd^
 ||qfeozmawp.in^
 ||qfioffacmnaw.in^
+||qfmvgndngiksk.online^
 ||qfqwgarymap.com^
 ||qgauajujymtaw.site^
 ||qgelsuqzssxpl.space^
@@ -29837,6 +29938,7 @@ browsershots.org#@#.advert_area
 ||rcdjlpqydhont.site^
 ||rcdn-web.com^
 ||rcfeowortgtjl.online^
+||rcftcrtutkqyk.website^
 ||rcnwsecukrjf.com^
 ||rcvlink.com^
 ||rcvlinks.com^
@@ -29879,6 +29981,7 @@ browsershots.org#@#.advert_area
 ||reasonable-source.com^
 ||reatasesetitoefa.com^
 ||reate.info^
+||reawaitinsoleapodan.cyou^
 ||rebellyimmix.cyou^
 ||reblameqm.cyou^
 ||reblownrandell.com^
@@ -30136,6 +30239,7 @@ browsershots.org#@#.advert_area
 ||ringktuiswghd.space^
 ||ringtonepartner.com^
 ||rinncuot.in^
+||rinuorwuoyoqg.space^
 ||rinwcijqsjzci.online^
 ||riotousglaked.click^
 ||ripe-heart.com^
@@ -30644,6 +30748,7 @@ browsershots.org#@#.advert_area
 ||seasickeranist.com^
 ||seaterangrily.cyou^
 ||seatslaurelblemish.com^
+||secourscutch.com^
 ||secprf.com^
 ||secretnot.com^
 ||sectssupes.qpon^
@@ -30739,6 +30844,7 @@ browsershots.org#@#.advert_area
 ||servingcdn.net^
 ||servr1.com^
 ||servropt.com^
+||seskutp.com^
 ||setksohxkggca.online^
 ||setoinc.com^
 ||setozrjnlajld.space^
@@ -30770,6 +30876,7 @@ browsershots.org#@#.advert_area
 ||sfixretarum.com^
 ||sflryh.com^
 ||sfnqwdczblgnt.online^
+||sfqxepbilnadn.space^
 ||sfreetummies.cfd^
 ||sftapi.com^
 ||sfumhmojnljka.online^
@@ -30911,6 +31018,7 @@ browsershots.org#@#.advert_area
 ||sinnerhealthypoured.com^
 ||sinonneurism.com^
 ||sippansy.com^
+||sipsmaggle.cyou^
 ||sireepeppyreen.qpon^
 ||sireimplement.com^
 ||siresbearm.com^
@@ -31009,6 +31117,7 @@ browsershots.org#@#.advert_area
 ||sltraffic.com^
 ||sluicedevastating.com^
 ||slunkenfulgora.click^
+||slybffrfdmhpw.site^
 ||slymdlssjeoaz.online^
 ||smaato.net^
 ||smac-ssp.com^
@@ -31315,6 +31424,7 @@ browsershots.org#@#.advert_area
 ||ssl-services.com^
 ||ssl2anyone5.com^
 ||sslph.com^
+||sslyqxezmsehc.website^
 ||ssm.codes^
 ||ssootnhnblbmcs.com^
 ||ssotlctvjiuei.site^
@@ -31653,6 +31763,7 @@ browsershots.org#@#.advert_area
 ||tangiritzy.com^
 ||tannasecoart.cfd^
 ||tannictipcatholl.cfd^
+||tantonykobu.cfd^
 ||taoyinbiacid.com^
 ||tapchibitcoin.care^
 ||tapdb.net^
@@ -32692,6 +32803,7 @@ browsershots.org#@#.advert_area
 ||urushicazoresdarns.cfd^
 ||urushichairen.cyou^
 ||uruwjzecxalwm.website^
+||urzcdepq.com^
 ||usaday.biz^
 ||usbrowserspeed.com^
 ||uscemnmusihzh.space^
@@ -32774,6 +32886,7 @@ browsershots.org#@#.advert_area
 ||uyhifvdohrxoy.site^
 ||uyjhzkltcwfnv.website^
 ||uynviwrmfh.com^
+||uypaoyvudkbqm.online^
 ||uyqhhxjylygof.site^
 ||uyvgrrcqcvvjx.online^
 ||uywtigklrhywd.online^
@@ -32816,6 +32929,7 @@ browsershots.org#@#.advert_area
 ||vanbrozuro.in^
 ||vandalcuculla.click^
 ||vanderlisten.pro^
+||vanesfounte.click^
 ||vangloeducat.com^
 ||vangsyours.com^
 ||vansfeudeefemmes.cyou^
@@ -32859,6 +32973,7 @@ browsershots.org#@#.advert_area
 ||vbtrax.com^
 ||vbutcdvvipfuh.com^
 ||vbxsxpqqjoyae.site^
+||vbyalehwxsppw.space^
 ||vcdc.com^
 ||vchllvizn.com^
 ||vckgrmcikcze.com^
@@ -32908,6 +33023,7 @@ browsershots.org#@#.advert_area
 ||verilyelks.cyou^
 ||vermilyerthen.com^
 ||verse-content.com^
+||versingpaintszingers.cfd^
 ||verticallysaturate.com^
 ||vertigovitalitywieldable.com^
 ||verutumcohoshcerci.cyou^
@@ -32947,6 +33063,7 @@ browsershots.org#@#.advert_area
 ||vgpwgdsaspuem.space^
 ||vgvejxvanebvo.space^
 ||vgyjiltbicbip.website^
+||vhadaveqtqhqy.online^
 ||vhcnpglbmsuhn.online^
 ||vheikkyrhkkjc.space^
 ||vhfdpjmfdcovi.website^
@@ -33021,6 +33138,7 @@ browsershots.org#@#.advert_area
 ||viscuslegliketel.cyou^
 ||vishnuoscules.rest^
 ||visiads.com^
+||visibleeelshopearnful.cyou^
 ||visiblegains.com^
 ||visiblejoseph.com^
 ||visiblemeasures.com^
@@ -33078,6 +33196,7 @@ browsershots.org#@#.advert_area
 ||vnblezmhhljqq.online^
 ||vnegfpasjdibx.site^
 ||vnriacgxxtmow.site^
+||vnrmmyktredhl.space^
 ||vntsm.com^
 ||vntsm.io^
 ||vnvzxsakkrikg.site^
@@ -33168,6 +33287,7 @@ browsershots.org#@#.advert_area
 ||vxamslnbndqv.com^
 ||vxdqfsamhddju.online^
 ||vxflocowtxztw.site^
+||vxhhxwmomvaot.website^
 ||vxjkzdzvas.com^
 ||vxnurbodyeces.space^
 ||vxnvskrzuwmpo.online^
@@ -33529,6 +33649,7 @@ browsershots.org#@#.advert_area
 ||witletmorsels.com^
 ||witnessjacket.com^
 ||wiumlqifnhvl.com^
+||wiuoafupzxewv.space^
 ||wiystvphakzgc.site^
 ||wizardunstablecommissioner.com^
 ||wjcyybhz.com^
@@ -33694,6 +33815,7 @@ browsershots.org#@#.advert_area
 ||wtxvpmusxtsvr.online^
 ||wtzjowlmeyigh.space^
 ||wucikfayfiuxl.site^
+||wucukyxnsybyv.space^
 ||wuddiecoppers.cfd^
 ||wuersogxocjaj.online^
 ||wujprcvbttqod.site^
@@ -33767,6 +33889,7 @@ browsershots.org#@#.advert_area
 ||wzeabbbhy.in^
 ||wzemzootg.in^
 ||wzkqcamv.com^
+||wzrqmimutdbfp.website^
 ||wztcxplxtlwei.site^
 ||wzwhvquciwzsst.com^
 ||wzzsehjozo.com^
@@ -33840,6 +33963,7 @@ browsershots.org#@#.advert_area
 ||xfomcipa.in^
 ||xfpauardl.com^
 ||xfqvsbylvgpvv.site^
+||xframbahdxnur.site^
 ||xfrguohlskkmq.site^
 ||xfuxpfhoyvskq.online^
 ||xfwblpomxc.com^
@@ -33904,6 +34028,7 @@ browsershots.org#@#.advert_area
 ||xlyqgjsbwotum.website^
 ||xmaguskz.in^
 ||xmaqolcvrsdvd.online^
+||xmaseseveners.click^
 ||xmbegfqtcsugc.online^
 ||xmhusdidqnptw.site^
 ||xml-api.online^
@@ -33950,6 +34075,7 @@ browsershots.org#@#.advert_area
 ||xqmizurfyle.com^
 ||xquekeeq.com^
 ||xqwsuagia.com^
+||xqyudvcuxqgfz.website^
 ||xr6urwu85226qn4623ru.cfd^
 ||xrbqnjazjsnpr.website^
 ||xremkpsleaexc.site^
@@ -33965,6 +34091,7 @@ browsershots.org#@#.advert_area
 ||xsqsskomtwkmw.space^
 ||xsrs.com^
 ||xsvtzgislrwlj.site^
+||xswayxfyi.com^
 ||xsxubdgmhxfxo.online^
 ||xszpuvwr7.com^
 ||xtaaggnznubjz.com^
@@ -34033,6 +34160,7 @@ browsershots.org#@#.advert_area
 ||xykedvwnijdoj.space^
 ||xylitesmash.com^
 ||xysterrevulse.cyou^
+||xyvoegypltdos.website^
 ||xywz8jb7tymhnv98wxuwlnyj.cfd^
 ||xyxiqtwkjqflt.site^
 ||xyxrhrnppvbxi.site^
@@ -34134,6 +34262,7 @@ browsershots.org#@#.advert_area
 ||ygtlxefvgdaps.site^
 ||ygtpbdosehzxh.website^
 ||ygwfdtm.com^
+||yhaknyoqjenbl.website^
 ||yhbcii.com^
 ||yhddwxhzipfa.com^
 ||yhgtgwewtwmka.site^
@@ -34189,6 +34318,7 @@ browsershots.org#@#.advert_area
 ||ymkletzxnmoey.space^
 ||ymlmofezmedic.space^
 ||ymmobi.com^
+||ymomwupyfgqhz.space^
 ||ymsmyyviipvkx.online^
 ||ymsuuqqucnwzz.site^
 ||ymupokogvrqif.website^
@@ -34196,6 +34326,7 @@ browsershots.org#@#.advert_area
 ||yneyorcnehcme.space^
 ||ynwulhrmqrgnq.site^
 ||ynylicdrkzbtp.space^
+||yo5t2u94obx933cxbt39rhec46.rest^
 ||yoads.net^
 ||yoahwdxspvxwq.online^
 ||yoc-adserver.com^
@@ -34243,6 +34374,7 @@ browsershots.org#@#.advert_area
 ||ypkslibcaucpf.site^
 ||yplerjums.com^
 ||ypq72b6ningrip8jy.cfd^
+||ypqnkscnkdcnq.online^
 ||yptpolepzupbx.site^
 ||ypviubzybrvfo.site^
 ||ypxakykevcwg.com^
@@ -34309,6 +34441,7 @@ browsershots.org#@#.advert_area
 ||yxeawgomuxnix.space^
 ||yxgawnoujeedu.space^
 ||yxhpertx.com^
+||yxkckeaeq.com^
 ||yxnjqmjye2e7778pio1.rest^
 ||yxppsujpuvdpe.space^
 ||yxqscyqyvrnam.space^
@@ -34367,6 +34500,7 @@ browsershots.org#@#.advert_area
 ||zcijuefwiulzc.online^
 ||zckfjcotzjdty.space^
 ||zckrpismjyqvj.site^
+||zcnwrtkwtcf.com^
 ||zcpajilbszv.com^
 ||zcqfkdehhsbno.site^
 ||zcswet.com^
@@ -34398,6 +34532,7 @@ browsershots.org#@#.advert_area
 ||zerads.com^
 ||zeroclampentice.com^
 ||zerodayromance.com^
+||zeroizemoved.click^
 ||zerqmpdqbccvi.site^
 ||zestyalto.com^
 ||zestybass.com^
@@ -34435,6 +34570,7 @@ browsershots.org#@#.advert_area
 ||zhokpraictvcq.online^
 ||zhoytqwswnmtp.site^
 ||zhppxjstwhjko.online^
+||zhtgzsvpdhhge.website^
 ||zhwsixguoj.com^
 ||zi8ivy4b0c7l.com^
 ||ziametbaff.com^
@@ -34526,6 +34662,7 @@ browsershots.org#@#.advert_area
 ||zpiacvzcunza.in^
 ||zpivgljegwnpr.online^
 ||zpklzvljzjbq.com^
+||zplbvwptmabab.space^
 ||zpptusrwzaapg.site^
 ||zpqigdljesbnv.space^
 ||zpteilaamwnwz.space^
@@ -34575,6 +34712,7 @@ browsershots.org#@#.advert_area
 ||zuzaghbkajav.in^
 ||zvegrwprjcuja.online^
 ||zvetokr2hr8pcng09.com^
+||zvexyioyzipry.website^
 ||zvfrawshgpecg.website^
 ||zvkxvptojkpsr.online^
 ||zvmtmbdailzfe.space^
@@ -41620,6 +41758,8 @@ berkem.ru,canalporno.com,cartoonpornvideos.com,daily-sun.com,eksisozluk.com,goog
 chip.de,fnn.jp,gamesworld.de##.Ad
 genxy-net.com,kun.uz,m.3movs.com,m.alphaporno.com,m.aydin24haber.com,m.hellporno.com,m.lenta.ru,m.price.com.hk,m.sexu.com,m.xcum.com,m.yourlust.com,medipalette.lotte.co.jp,nikkan-gendai.com,otakuma.net,rank-king.jp,topics.smt.docomo.ne.jp##body .banner
 sp.manga.nicovideo.jp##div[style^="--ads-width:"]
+esquire.com##div[data-gpt-wrapper="true"]
+u.gg##div.media-query_MOBILE_SMALL__MOBILE_LARGE:has(> div.flex > a[href="/plus?utm_source=uggbuilds"])
 chouseisan.com##.ad-header-div
 chouseisan.com##.chousei-ad-div
 newsru.co.il##div[class^="amp_"]
@@ -69133,7 +69273,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ad_top.jpg$image
 /adanalytics.js$script
 /adasync.js$script
-/adblock/frontend_loader.js$~xmlhttprequest
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adhandler/*$~subdocument
@@ -69505,7 +69644,6 @@ wss://loader.*.com/ws^$third-party
 /zclkvisitor/*$document
 /zcredirect?$document
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-notify-by-bweb/*$script,stylesheet
 /anti-adblock/*$~stylesheet
 -468x80-$image
@@ -82974,7 +83112,6 @@ _468x118.
 ||cfngdxtjw.com^
 ||cfngncvzumazd.space^
 ||cfnokaixpcius.online^
-||cfoxeeannedjv.website^
 ||cfpisltkhedst.online^
 ||cfszapashpahn.space^
 ||cfulayvtzsggi.online^
@@ -83627,7 +83764,6 @@ _468x118.
 ||cruhtravbsuio.space^
 ||crumbedprearm.cfd^
 ||crunchysheathstruck.com^
-||crusdezalgozq.space^
 ||crustdisagreeable.com^
 ||crustedspeak.qpon^
 ||crutchdiminutionantarctic.com^
@@ -84270,6 +84406,7 @@ _468x118.
 ||dgmmntcknzljy.space^
 ||dgoynwlmoxgsx.space^
 ||dgtsowpvnhodi.site^
+||dguvjpegbqawv.online^
 ||dgvhzcxksncni.website^
 ||dgwnczabiojka.space^
 ||dgwxaedsrledc.site^
@@ -86804,6 +86941,7 @@ _468x118.
 ||franklyprocesses.com^
 ||franticallyplayedproclaim.com^
 ||franticmellownegotiate.com^
+||fratryuraoweedish.cfd^
 ||fraudulentquarter.com^
 ||frautkgibbbwj.space^
 ||fraysblotto.cyou^
@@ -86867,7 +87005,6 @@ _468x118.
 ||fruitiesmatchina.org^
 ||frwifrmgtrrqi.website^
 ||fryhzcadnypnn.online^
-||frzclvrvehksl.space^
 ||frzsblxklkuoa.site^
 ||frztpfjmnuexn.space^
 ||fsaaianvapxeh.site^
@@ -87453,7 +87590,6 @@ _468x118.
 ||gloriaagrarianstatement.com^
 ||gloriafacsim.cyou^
 ||glorifynucleitripping.com^
-||gloriousberry.pro^
 ||gloriousoutfieldtrembling.com^
 ||glorycomprehensionembroidery.com^
 ||glossalstrums.cfd^
@@ -87714,7 +87850,6 @@ _468x118.
 ||grummerlore.shop^
 ||grumpkali.com^
 ||grumpyprotection.pro^
-||grunthpuzzles.com^
 ||grvycpghbiild.website^
 ||grwdrkaqpxcna.website^
 ||grwp3.com^
@@ -90267,7 +90402,6 @@ _468x118.
 ||jxbwzfgggttme.site^
 ||jxcuocswkavpi.site^
 ||jxelkzydvftdn.space^
-||jxhaohxzsrvch.space^
 ||jxhikyldhuqsz.site^
 ||jxiiwldewtdql.online^
 ||jxiqoaszcfxve.website^
@@ -90463,6 +90597,7 @@ _468x118.
 ||kenduktur.com^
 ||kennethcreaturesimpunity.com^
 ||kennethcries.com^
+||kentinedafile.org^
 ||kentleocyte.com^
 ||keoto.xyz^
 ||kepqkimmiqcjp.space^
@@ -90612,6 +90747,7 @@ _468x118.
 ||kjitkhmrqxhmz.online^
 ||kjkavoimtxart.online^
 ||kjljrwoibgbso.site^
+||kjmiavddpejru.site^
 ||kjmrldarxadmw.online^
 ||kjoplybvqyrsw.space^
 ||kjoretngfboki.space^
@@ -92705,7 +92841,6 @@ _468x118.
 ||mumjchhqeygvu.site^
 ||mummifiedpatienceunknowing.com^
 ||mumpingprimeur.cfd^
-||mundifycormoidarrope.cyou^
 ||mungeyjobo.cyou^
 ||mungoprowess.com^
 ||muniadazzled.qpon^
@@ -96930,6 +97065,7 @@ _468x118.
 ||riqunamcnaqaz.online^
 ||rirrydpcnfxvj.website^
 ||risemiddleagedmart.com^
+||risfbmwmhgnim.site^
 ||risingshadewhite.com^
 ||ritfbtbqnmvxw.space^
 ||rittersjatki.com^
@@ -98852,6 +98988,7 @@ _468x118.
 ||suvloxmlkfier.online^
 ||suxbduziqbblv.store^
 ||suxmmptepcpiq.space^
+||suxncbhfkrqvv.space^
 ||suyczprfuaijt.online^
 ||suzzpmzdxwqkr.space^
 ||suzzvbiflqrru.online^
@@ -98890,6 +99027,7 @@ _468x118.
 ||swaxliwrletol.online^
 ||swbihztgbtqcs.space^
 ||swbkgsgpzwknx.site^
+||swcnuiymstlmv.site^
 ||swdbcdsqexvxs.website^
 ||swdqortugmmrj.online^
 ||sweaterokay.com^
@@ -100668,7 +100806,6 @@ _468x118.
 ||urvnduxksrtag.space^
 ||urwbsmyrspycn.online^
 ||urwqfecgnncli.space^
-||urzcdepq.com^
 ||urzdxiiugisad.site^
 ||usablebear.pro^
 ||usagecoincident.com^
@@ -101646,6 +101783,7 @@ _468x118.
 ||wavermiddayboundary.com^
 ||waviesdaywork.cyou^
 ||wavtcdqwbuhiw.space^
+||waxgsiqltpeaa.online^
 ||wayfarerniece.com^
 ||waypkswyqvxuu.site^
 ||waysspigot.com^
@@ -102156,6 +102294,7 @@ _468x118.
 ||wpcklpeseoivx.online^
 ||wpdbdkhobbwhf.space^
 ||wpdebqdqisagw.site^
+||wpeivromesxa.com^
 ||wphefiaictrsr.space^
 ||wphkaxlvjxilq.online^
 ||wphwblykxoiia.online^
@@ -102772,7 +102911,6 @@ _468x118.
 ||xqwkfbmazxgwe.online^
 ||xqxplqzqywvcj.website^
 ||xqyubbzfvfbtl.site^
-||xqyudvcuxqgfz.website^
 ||xqzgzrnothbie.online^
 ||xrbcmxuzmyfzj.website^
 ||xrff-adguard.pro^
@@ -102888,6 +103026,7 @@ _468x118.
 ||xvqidgxfdsxbe.store^
 ||xvrrjdgregofk.website^
 ||xvsbnqnvokrql.store^
+||xvsnpmplbdn.com^
 ||xvuaguwvreldr.space^
 ||xvvoitelqemgl.space^
 ||xvvvuchrlkezb.site^
@@ -102957,7 +103096,6 @@ _468x118.
 ||xyqumljcicsriz.com^
 ||xyroxqxhjcjzd.store^
 ||xyuqvvrvdmelc.space^
-||xyvoegypltdos.website^
 ||xzbyhyxkzfbpa.space^
 ||xzcjkomnnjseu.space^
 ||xzgkarpqxpybo.site^
@@ -103354,7 +103492,6 @@ _468x118.
 ||ypmaztesjxhxn.site^
 ||ypocjgogabqjj.website^
 ||ypphgndtjnpyf.online^
-||ypqnkscnkdcnq.online^
 ||ypqowrizpahrb.space^
 ||ypsozc.com^
 ||yptolkbcxepbh.online^
@@ -103396,6 +103533,7 @@ _468x118.
 ||yrrnadvdbvdow.space^
 ||yrsgvtfoigiii.online^
 ||yrtabkuyqxece.website^
+||yrtajivgfzoqr.site^
 ||yrujkbsgmarpf.space^
 ||yrupvrsguhuln.site^
 ||yrvamtdweysom.site^
@@ -103500,7 +103638,6 @@ _468x118.
 ||yxcruyhkddqkn.site^
 ||yxibcujksiubp.online^
 ||yxjdwjbajkukl.online^
-||yxkckeaeq.com^
 ||yxmtgttitplap.store^
 ||yxmvtcdlrsvkm.online^
 ||yxnkrmzdmjwwt.site^
